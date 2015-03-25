@@ -1,0 +1,104 @@
+Package: DT
+Version: 0.0.34
+Imports: htmltools, htmlwidgets, magrittr
+Suggests: jsonlite, knitr (>= 1.8), shiny
+License: GPL-3
+MD5sum: b46caeabd1e3b8f9cd745603699676bb
+NeedsCompilation: no
+
+Package: evaluate
+Version: 0.5.7
+Depends: R (>= 2.14.0)
+Imports: stringr (>= 0.6.2)
+Suggests: testthat, lattice, ggplot2
+License: GPL
+MD5sum: 72e6282a36a0a3d6ac73cff14d504f16
+NeedsCompilation: no
+
+Package: formatR
+Version: 1.1
+Suggests: codetools, shiny, testit, knitr (>= 1.9)
+License: GPL
+MD5sum: fcd7140caa663651a3aeb64207ebd07e
+NeedsCompilation: no
+
+Package: knitr
+Version: 1.9.9
+Depends: R (>= 2.14.1)
+Imports: evaluate (>= 0.5.5), digest, formatR (>= 1.0), highr (>= 0.4),
+        markdown (>= 0.7.4), stringr (>= 0.6), tools
+Suggests: testit, rgl (>= 0.95.1201), codetools, rmarkdown, XML, RCurl
+License: GPL
+MD5sum: 516d15f2814255542ea542cf1ab42a17
+NeedsCompilation: no
+
+Package: mime
+Version: 0.3
+Imports: tools
+License: GPL-2
+MD5sum: 4b283387654869b64d2a02b7d06d5561
+NeedsCompilation: yes
+
+Package: printr
+Version: 0.0.3
+Imports: knitr (>= 1.6.18)
+Suggests: tools, rmarkdown
+License: GPL
+MD5sum: 61842cf4b719faed211218fc1c0c74c0
+NeedsCompilation: no
+
+Package: Rd2roxygen
+Version: 1.6
+Imports: roxygen2 (>= 4.0.0), formatR (>= 1.0)
+Suggests: knitr (>= 1.9), rmarkdown
+License: GPL
+MD5sum: d51896971b9358bb2e01327241f54244
+NeedsCompilation: no
+
+Package: rlp
+Version: 0.0.2
+Depends: R (>= 3.0.0)
+Suggests: knitr (>= 1.8.12), rmarkdown
+License: MIT + file LICENSE
+MD5sum: 571d04a3c3a1013970075b0639fcb3bb
+NeedsCompilation: no
+
+Package: rmarkdown
+Version: 0.3.3
+Depends: R (>= 3.0)
+Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
+        0.2.4), caTools
+Suggests: shiny (>= 0.10.1), testthat, digest
+License: GPL-3
+MD5sum: 0c82a97f475c1d0af50791fb49ce359e
+NeedsCompilation: no
+
+Package: rnotebook
+Version: 0.0.2
+Imports: knitr (>= 1.8), jsonlite (>= 0.9.14)
+Suggests: rmarkdown, servr (> 0.1)
+License: MIT + file LICENSE
+MD5sum: a92f298af08c2bd14a483fdea25d153c
+NeedsCompilation: no
+
+Package: runr
+Version: 0.0.6
+License: GPL
+MD5sum: 5e7742c2767a30c8e0930fce951b5e84
+NeedsCompilation: no
+
+Package: servr
+Version: 0.2
+Depends: R (>= 3.0.0)
+Imports: mime (>= 0.2), httpuv (>= 1.3.2), jsonlite
+Suggests: tools, knitr (>= 1.9), rmarkdown
+License: GPL
+MD5sum: 41122e6c0615095eb72eb2f7a70ed60c
+NeedsCompilation: no
+
+Package: testit
+Version: 0.4
+License: GPL
+MD5sum: 76a66ec609025f74ea01db3668796e52
+NeedsCompilation: no
+
